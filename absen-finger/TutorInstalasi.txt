@@ -1,0 +1,8 @@
+Langkah instalasi admin dashboard untuk IoT absen fingerprint
+
+1. Pastikan XAMPP dan PHPMyAdmin sudah terinstall 
+2. Pindahkan folder app dan config ke folder htdocs
+2. Install database dengan cara masuk ke alamat localhost/absenfinger/install.php
+3. Buka file nodeMCU_Fingerprint.ino dan ubah SSID, Password, dan IP sesuai dengan yang digunakan PC kemudian upload ke NodeMCU
+4. Masuk ke alamat localhost/absenfinger/app
+5. IoT Absen Fingerprint siap digunakan
